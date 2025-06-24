@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Raleway } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "./_components/navbar/DropdownNav/NavBar";
+
 const raleway = Raleway({
   variable: "--font-raleway",
   subsets: ["latin"],
@@ -10,8 +12,8 @@ const raleway = Raleway({
 
 
 export const metadata: Metadata = {
-  title: "G'Dance",
-  description: "Dance Civray 86",
+  title: "G'Danse",
+  description: "Danse Civray 86",
 };
 
 export default function RootLayout({
@@ -24,6 +26,9 @@ export default function RootLayout({
       <body
         className={`${raleway.variable}  antialiased`}
       >
+        <div>
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>

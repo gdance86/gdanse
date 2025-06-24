@@ -5,6 +5,7 @@ import { FaPhone, FaEnvelope, FaChevronDown } from "react-icons/fa";
 
 export default function Home() {
   return (
+ 
     <div className="flex flex-col items-center justify-items-center min-h-screen p-5 gap-20  font-[family-name:var(--font-raleway)]">
       <main className="flex flex-col gap-10 row-start-1 h-screen justify-center items-center sm:items-start">
           <Image
