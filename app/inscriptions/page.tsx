@@ -31,7 +31,6 @@ export default function Inscriptions(){
             
             />
 
-            <img src="/fiche_d'inscription.pdf"></img>         
             </a>
 
 
