@@ -20,20 +20,28 @@ export default function Home() {
       
       </main>
 
-      <section className="row-start-2">
-        <Image
-              src="/affiche1.png"
-              width={600}
-              height={200}
-              alt="G'Dance affiche May 2025"
-            />
-      </section>
+      
       <footer className="row-start-3 flex gap-2 flex-col flex-wrap items-center justify-center">
-        <h1>G'Danse</h1>
-        <p>Gaelle Faiz</p>
-        <div className="flex gap-2"><FaPhone/><p>0611918244</p></div>
-        <div className="flex gap-2"><FaEnvelope /><p>assogdanse@yahoo.com</p></div>
-
+        <h2 className="text-xl font-bold">G'Danse</h2>
+     
+       
+          <div className="flex flex-col items-center align-center gap-2">
+               
+                <div className="flex flex-col items-center align-center">
+                    <p>Presidente de l'association: Mme LECOMPTE Angelique</p>
+                    <p>N: 06 88 92 82 10</p>
+                
+                </div>
+                <div className="flex flex-col items-center align-center" >
+                    <p>Siege social: 12 Place de Gaulle</p>
+                    <p>BP 40049</p>
+                    <p>86400 Civray</p>
+                </div>
+                <div className="flex flex-col items-center align-center">
+                    <p>Numero siret: 940 869 621 000 18</p>
+                </div>
+                    
+            </div>
         
       </footer>
     </div>

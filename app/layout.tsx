@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Raleway } from "next/font/google";
 import "./globals.css";
-
+ 
 import Navbar from "./_components/navbar/DropdownNav/NavBar";
+import Footer from "./_components/footer/Footer";
 
 const raleway = Raleway({
   variable: "--font-raleway",
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );

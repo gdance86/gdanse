@@ -33,7 +33,7 @@ export default function DropdownView({navList, route}: {navList: NavList[] , rou
             <DropdownMenuContent >
 
                 {navList.map((i, index) => (
-                    <DropdownMenuItem key={index}><Link href={i.route ?`/${i.route}` : `${i.title.toLocaleLowerCase()}`}><p className="text-lg text-black ">{i.title}</p></Link></DropdownMenuItem>
+                    <Link key={index} href={i.route ?`/${i.route}` : `${i.title.toLocaleLowerCase()}`}><DropdownMenuItem ><p className="text-lg text-black ">{i.title}</p></DropdownMenuItem></Link>
                 ))}
                     
             </DropdownMenuContent>

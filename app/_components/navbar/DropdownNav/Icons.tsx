@@ -6,7 +6,7 @@ export default function Icons({size}: {size:number}){
 
     return (
         <div>
-            <a href='https://www.facebook.com/groups/423854767420347' target="_blank"><FaFacebook className="hover:animate-ping" size={size}/></a>
+            <a href='https://www.facebook.com/groups/423854767420347' target="_blank"><FaFacebook className="hover:text-danse" size={size}/></a>
         </div>
     )
 }
