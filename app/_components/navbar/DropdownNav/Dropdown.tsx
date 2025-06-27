@@ -3,7 +3,6 @@
 import Link from 'next/link';
 
 
-import { Button } from '@/components/ui/button';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import {
     DropdownMenu,
@@ -19,7 +18,7 @@ import {
 import { NavList } from '../../../../lib/types';
 
 
-export default function DropdownView({navList, route}: {navList: NavList[] , route?: string|undefined}){
+export default function DropdownView({navList}: {navList: NavList[]}){
 
     return (
         <div className="flex text-danse pl-2 pr-2 ">

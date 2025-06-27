@@ -1,11 +1,13 @@
 
+import { NavList } from "@/lib/types";
 import DropdownView from "./Dropdown";
 import Icons from "./Icons";
 
 
+
 export default function Navbar(){
 
-const navlist = [{id: '1', title: 'Accueil', route: '/'}, {id: '2', title: 'Inscriptions'}, {id: '3', title: 'Contact'}, {id: '4', title:'Photos'}, {id: '4', title:'Stage'}, , {id: '5', title:'Planning'}]
+const navlist = [{id: '1', title: 'Accueil', route: '/'}, {id: '2', title: 'Inscriptions'}, {id: '3', title: 'Contact'}, {id: '4', title:'Photos'}, {id: '4', title:'Stage'},  {id: '5', title:'Planning'}]
 
 return (
 
